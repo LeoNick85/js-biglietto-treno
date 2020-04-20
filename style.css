@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header {
+    height: 120px;
+    background-color: #cbd6e2;
+    text-align: center;
+    color: #25960f;
+    border-bottom: 3px inset darkslategrey;
+    padding: 20px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+header h2 {
+    font-size: 14px;
+    color: #104603;
+}
+
+main {
+    height: calc( 100vh - 120px);
+    background-image: url("img/train.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user-data {
+    height: 300px;
+    width: 550px;
+    background-color: #bdd9f8;
+    padding: 16px;
+    border: 6px ridge grey;
+}
+
+#user-data h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#user-data ul li {
+    padding-top: 20px;
+}
+
+#result {
+    height: 300px;
+    background-color: #bdd9f8;
+    padding: 16px;
+    text-align: center;
+    border: 6px ridge grey;
+}
+
+#costo_wrapper {
+    height: 120px;
+    margin: auto;
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    border: 3px inset grey;
+    margin-top: 50px;
+}
+
+#costo_wrapper p {
+    padding: 27px 4px 0 4px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 42px;
+}
+
+#tariffa_wrapper {
+    background-color: #bb0025;
+    color: white;
+    padding: 4px 0;
+}

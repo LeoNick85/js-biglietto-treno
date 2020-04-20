@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Orbitron:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Esercitazione #18 - Biglietto treno in JavaScript</title>
+    </head>
+    <body>
+        <header>
+            <h1>Il tuo biglietto ferroviario</h1>
+            <h2>Scopri quanto costa il tuo viaggio in treno</h2>
+        </header>
+        <main>
+            <div id="user-data">
+                <h3>I dati del tuo viaggio</h3>
+                <ul>
+                    <li>La tua età: <span id="eta"></span> </li>
+                    <li>Sconto età applicabile: <span id="sconto"></span></li>
+                    <li>Numero di chilometri da percorrere: <span id="chilometri"></span>km</li>
+                </ul>
+            </div>
+            <div id="result">
+                <h4>Il tuo biglietto costerà:</h4>
+                <div id="costo_wrapper">
+                    <p><span id="costo"></span>€</p>
+                </div>
+                <div id="tariffa_wrapper">
+                    <h5>Tariffa corrente:</h5>
+                    <p id="tariffa"></p>
+                </div>
+            </div>
+        </main>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
